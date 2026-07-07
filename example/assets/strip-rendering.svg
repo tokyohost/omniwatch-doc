@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="360" viewBox="0 0 860 360">
+  <rect width="860" height="360" rx="18" fill="#0f172a"/>
+  <g transform="translate(80 28)">
+    <rect width="240" height="300" rx="8" fill="#111827" stroke="#64748b" stroke-width="2"/>
+    <g stroke="#0f172a" stroke-width="3"><rect y="0" width="240" height="37.5" fill="#38bdf8"/><rect y="37.5" width="240" height="37.5" fill="#34d399"/><rect y="75" width="240" height="37.5" fill="#fbbf24"/><rect y="112.5" width="240" height="37.5" fill="#f472b6"/><rect y="150" width="240" height="37.5" fill="#38bdf8"/><rect y="187.5" width="240" height="37.5" fill="#34d399"/><rect y="225" width="240" height="37.5" fill="#fbbf24"/><rect y="262.5" width="240" height="37.5" fill="#f472b6"/></g>
+    <text x="120" y="324" text-anchor="middle" font-family="Arial,Microsoft YaHei,sans-serif" font-size="18" fill="#cbd5e1">整屏 240 × 320</text>
+  </g>
+  <path d="M350 170H495" stroke="#94a3b8" stroke-width="4" marker-end="url(#arrow)"/>
+  <g transform="translate(535 108)"><rect width="240" height="40" rx="5" fill="#fbbf24"/><text x="120" y="68" text-anchor="middle" font-family="Arial,Microsoft YaHei,sans-serif" font-size="18" fill="#cbd5e1">内存中每次只放一个条带</text><text x="120" y="98" text-anchor="middle" font-family="Arial,Microsoft YaHei,sans-serif" font-size="17" fill="#94a3b8">坐标仍使用整屏坐标</text></g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#94a3b8"/></marker></defs>
+</svg>

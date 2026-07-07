@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220">
+  <rect width="960" height="220" rx="22" fill="#0b1220"/>
+  <text x="48" y="50" fill="#e5e7eb" font-family="Arial,Microsoft YaHei,sans-serif" font-size="25" font-weight="bold">从第一行文字到自己的 OmniWatch 仪表盘</text>
+  <path d="M105 133H855" stroke="#334155" stroke-width="8" stroke-linecap="round"/>
+  <g font-family="Arial,Microsoft YaHei,sans-serif" text-anchor="middle">
+    <g><circle cx="105" cy="133" r="25" fill="#38bdf8"/><text x="105" y="140" fill="#07111f" font-size="21" font-weight="bold">0</text><text x="105" y="188" fill="#cbd5e1" font-size="16">坐标</text></g>
+    <g><circle cx="255" cy="133" r="25" fill="#38bdf8"/><text x="255" y="140" fill="#07111f" font-size="21" font-weight="bold">1</text><text x="255" y="188" fill="#cbd5e1" font-size="16">亮屏</text></g>
+    <g><circle cx="405" cy="133" r="25" fill="#34d399"/><text x="405" y="140" fill="#07111f" font-size="21" font-weight="bold">2</text><text x="405" y="188" fill="#cbd5e1" font-size="16">数据</text></g>
+    <g><circle cx="555" cy="133" r="25" fill="#34d399"/><text x="555" y="140" fill="#07111f" font-size="21" font-weight="bold">3</text><text x="555" y="188" fill="#cbd5e1" font-size="16">布局</text></g>
+    <g><circle cx="705" cy="133" r="25" fill="#fbbf24"/><text x="705" y="140" fill="#07111f" font-size="21" font-weight="bold">4</text><text x="705" y="188" fill="#cbd5e1" font-size="16">刷新</text></g>
+    <g><circle cx="855" cy="133" r="25" fill="#f472b6"/><text x="855" y="140" fill="#07111f" font-size="21" font-weight="bold">5</text><text x="855" y="188" fill="#cbd5e1" font-size="16">图表</text></g>
+  </g>
+</svg>

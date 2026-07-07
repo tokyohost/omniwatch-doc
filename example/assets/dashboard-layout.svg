@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="470" viewBox="0 0 760 470">
+  <rect width="760" height="470" rx="18" fill="#eef2ff"/>
+  <g transform="translate(250 25)">
+    <rect width="260" height="400" rx="14" fill="#090f1d" stroke="#475569" stroke-width="3"/>
+    <rect x="10" y="10" width="240" height="38" rx="5" fill="#1d4ed8"/>
+    <text x="24" y="35" font-family="Arial,Microsoft YaHei,sans-serif" font-size="16" fill="white">标题 / 主机名</text>
+    <rect x="10" y="64" width="240" height="90" rx="7" fill="#172033"/>
+    <text x="24" y="91" font-family="Arial,Microsoft YaHei,sans-serif" font-size="16" fill="#e2e8f0">CPU 37%</text>
+    <rect x="24" y="112" width="212" height="14" fill="#334155"/>
+    <rect x="24" y="112" width="78" height="14" fill="#38bdf8"/>
+    <rect x="10" y="174" width="240" height="44" rx="7" fill="#172033"/>
+    <text x="24" y="201" font-family="Arial,Microsoft YaHei,sans-serif" font-size="15" fill="#34d399">NETWORK ONLINE</text>
+    <line x1="10" y1="360" x2="250" y2="360" stroke="#334155"/>
+    <text x="18" y="384" font-family="Arial,Microsoft YaHei,sans-serif" font-size="15" fill="#94a3b8">16:30:45</text>
+  </g>
+  <g font-family="Arial,Microsoft YaHei,sans-serif" font-size="17" fill="#334155">
+    <text x="85" y="65">标题区域</text><path d="M160 60H245" stroke="#64748b"/>
+    <text x="85" y="132">CPU 卡片</text><path d="M165 127H245" stroke="#64748b"/>
+    <text x="72" y="220">网络状态</text><path d="M160 215H245" stroke="#64748b"/>
+    <text x="565" y="395">页脚时间</text><path d="M515 380H555" stroke="#64748b"/>
+  </g>
+  <text x="380" y="455" text-anchor="middle" font-family="Arial,Microsoft YaHei,sans-serif" font-size="17" fill="#475569">先划分区域，再填写坐标；比边写边猜更省时间</text>
+</svg>
