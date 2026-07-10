@@ -1,0 +1,8 @@
+{
+  "protocol": 1,
+  "key": "demo_sensor",
+  "name": "demo_sensor",
+  "zh_name": "演示传感器",
+  "interval": 5,
+  "entry": "main.py"
+}

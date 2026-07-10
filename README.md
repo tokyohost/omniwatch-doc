@@ -38,7 +38,7 @@
 | [style_my_status.py](example/code/style_my_status.py) | 第 2 课 | 读取真实监控数据 |
 | [style_my_dashboard.py](example/code/style_my_dashboard.py) | 第 3～4 课 | 卡片、进度条和局部刷新 |
 | [style_my_chart.py](example/code/style_my_chart.py) | 第 5 课 | 完整历史图表示例 |
-| [custom_data_demo.py](example/code/custom_data_demo.py) | 第 10 课 | 自定义数据采集示例 |
+| [custom_data_plugin_demo](example/code/custom_data_plugin_demo) | 第 10 课 | 支持独立环境和 ZIP 分发的自定义数据插件示例 |
 
 ## 一眼记住五条硬规则
 
