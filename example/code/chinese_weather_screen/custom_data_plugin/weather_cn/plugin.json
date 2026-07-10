@@ -1,0 +1,8 @@
+{
+  "protocol": 1,
+  "key": "weather",
+  "name": "weather_cn",
+  "zh_name": "中文天气信息",
+  "interval": 600,
+  "entry": "main.py"
+}
