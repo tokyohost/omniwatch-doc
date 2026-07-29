@@ -4,5 +4,11 @@
   "name": "weather",
   "zh_name": "天气信息",
   "interval": 600,
+  "config_panel": [
+    {"name": "latitude", "zh_name": "纬度", "key": "latitude", "type": "number", "default": 31.2304, "min": -90, "max": 90, "decimal": 4},
+    {"name": "longitude", "zh_name": "经度", "key": "longitude", "type": "number", "default": 121.4737, "min": -180, "max": 180, "decimal": 4},
+    {"name": "city", "zh_name": "城市名称", "key": "city", "type": "string", "default": "Shanghai", "required": true},
+    {"name": "timezone", "zh_name": "时区", "key": "timezone", "type": "string", "default": "Asia/Shanghai", "required": true}
+  ],
   "entry": "main.py"
 }

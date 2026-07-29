@@ -2,6 +2,7 @@
 """采集 Open-Meteo 天气数据并转换为 OmniWatch 易显示的字段。"""
 
 import datetime as dt
+import json
 
 import requests
 
@@ -50,12 +51,17 @@ def _hour_minute(value):
         return "--:--"
 
 
-def collect():
-    """请求天气接口并返回可写入 snapshot.ext.weather 的 JSON 对象。"""
+def collect(config_json):
+    """解析面板配置，请求天气接口并返回可写入 snapshot.ext.weather 的 JSON 对象。"""
+    config = json.loads(config_json)
+    latitude = float(config.get("latitude", LATITUDE))
+    longitude = float(config.get("longitude", LONGITUDE))
+    city_name = str(config.get("city") or CITY_NAME)
+    timezone = str(config.get("timezone") or TIMEZONE)
     params = {
-        "latitude": LATITUDE,
-        "longitude": LONGITUDE,
-        "timezone": TIMEZONE,
+        "latitude": latitude,
+        "longitude": longitude,
+        "timezone": timezone,
         "current": "temperature_2m,relative_humidity_2m,weather_code,wind_speed_10m",
     }
     try:
@@ -68,7 +74,7 @@ def collect():
         weather_code = current.get("weather_code")
 
         return {
-            "city": CITY_NAME,
+            "city": city_name,
             "temperature_c": current.get("temperature_2m"),
             "humidity": current.get("relative_humidity_2m"),
             "wind_kmh": current.get("wind_speed_10m"),
@@ -79,7 +85,7 @@ def collect():
         }
     except requests.RequestException as exc:
         return {
-            "city": CITY_NAME,
+            "city": city_name,
             "text": "Network error",
             "updated_at": dt.datetime.now().strftime("%H:%M"),
             "status": "error",

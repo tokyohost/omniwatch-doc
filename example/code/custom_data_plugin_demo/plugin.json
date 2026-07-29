@@ -4,5 +4,20 @@
   "name": "demo_sensor",
   "zh_name": "演示传感器",
   "interval": 5,
-  "entry": "main.py"
+  "config_panel": [
+    {
+      "name": "offset",
+      "zh_name": "温度偏移",
+      "key": "offset",
+      "type": "number",
+      "default": 0,
+      "min": -20,
+      "max": 20,
+      "decimal": 1
+    }
+  ],
+  "entry": "main.py",
+  "bind_style": false,
+  "bind_detail": false,
+  "bind_preview": false
 }

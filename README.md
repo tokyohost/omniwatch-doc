@@ -28,9 +28,10 @@
 | 排错必读 | [如何查看和导出日志](example/08-查看日志.md) | 找到电脑端、设备端和上传日志 |
 | 开发调试 | [Dev 模式使用说明](example/09-Dev模式.md) | 无硬件查看数据，理解开启后的行为 |
 | 扩展数据 | [自定义数据采集](example/10-自定义数据.md) | 把自己的脚本数据加入 `snapshot.ext` |
-| 进阶实战 | [天气数据屏幕](example/11-天气屏幕进阶教程.md) | 自动获取天气信息并显示到自定义屏幕 |
-| 中文显示 | [中文点阵天气屏幕](example/12-中文点阵天气屏幕.md) | 用点阵字体把城市和天气显示成中文 |
-| 性能专题 | [性能优化篇](example/13-性能优化篇.md) | 理解优化原因，掌握局部刷新、缓存和绘制瘦身 |
+| 绑定资源 | [插件绑定样式、简介和预览图](example/11-绑定资源插件.md) | 用“演示传感器2”打包完整插件资源 |
+| 进阶实战 | [天气数据屏幕](example/12-天气屏幕进阶教程.md) | 自动获取天气信息并显示到自定义屏幕 |
+| 中文显示 | [中文点阵天气屏幕](example/13-中文点阵天气屏幕.md) | 用点阵字体把城市和天气显示成中文 |
+| 性能专题 | [性能优化篇](example/14-性能优化篇.md) | 理解优化原因，掌握局部刷新、缓存和绘制瘦身 |
 | 随查随用 | [Canvas 绘图接口速查表](example/07-Canvas接口速查.md) | 查找文字、矩形、线条、图表用法 |
 
 ## 可直接复制的代码
@@ -41,10 +42,11 @@
 | [style_my_status.py](example/code/style_my_status.py) | 第 2 课 | 读取真实监控数据 |
 | [style_my_dashboard.py](example/code/style_my_dashboard.py) | 第 3～4 课 | 卡片、进度条和局部刷新 |
 | [style_my_chart.py](example/code/style_my_chart.py) | 第 5 课 | 完整历史图表示例 |
-| [custom_data_plugin_demo](example/code/custom_data_plugin_demo) | 第 10 课 | 支持独立环境和 ZIP 分发的自定义数据插件示例 |
-| [weather_screen](example/code/weather_screen) | 第 11 课 | 天气自定义数据插件和英文天气屏幕样式 |
-| [chinese_weather_screen](example/code/chinese_weather_screen) | 第 12 课 | 中文天气插件和内置点阵字模的天气屏幕样式 |
-| [chinese_text_to_bitmap.py](example/code/chinese_text_to_bitmap.py) | 第 12 课 | 把中文转换为可粘贴进样式的点阵字模 |
+| [custom_data_plugin_demo](example/code/custom_data_plugin_demo) | 第 10 课 | 支持独立环境、动态配置面板和 ZIP 分发的自定义数据插件示例 |
+| [custom_data_plugin_demo2](example/code/custom_data_plugin_demo2) | 第 11 课 | “演示传感器2”完整绑定样式、简介和预览图的插件示例 |
+| [weather_screen](example/code/weather_screen) | 第 12 课 | 天气自定义数据插件和英文天气屏幕样式 |
+| [chinese_weather_screen](example/code/chinese_weather_screen) | 第 13 课 | 中文天气插件和内置点阵字模的天气屏幕样式 |
+| [chinese_text_to_bitmap.py](example/code/chinese_text_to_bitmap.py) | 第 13 课 | 把中文转换为可粘贴进样式的点阵字模 |
 
 ## 一眼记住五条硬规则
 
