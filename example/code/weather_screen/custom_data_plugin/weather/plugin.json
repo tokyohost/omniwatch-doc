@@ -1,5 +1,6 @@
 {
   "protocol": 1,
+  "version": "1.0.0",
   "key": "weather",
   "name": "weather",
   "zh_name": "天气信息",
