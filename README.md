@@ -42,6 +42,8 @@
 | [style_my_status.py](example/code/style_my_status.py) | 第 2 课 | 读取真实监控数据 |
 | [style_my_dashboard.py](example/code/style_my_dashboard.py) | 第 3～4 课 | 卡片、进度条和局部刷新 |
 | [style_my_chart.py](example/code/style_my_chart.py) | 第 5 课 | 完整历史图表示例 |
+| [style_only_demo](example/code/style_only_demo) | 纯样式包 | 只有界面样式和 HTML 详情、不包含数据采集入口的 `type: style` 示例 |
+| [style_only_demo.zip](example/code/style_only_demo.zip) | 纯样式包 | 可直接发布到市场或在 Monitor 屏幕样式页面上传的 ZIP 成品 |
 | [custom_data_plugin_demo](example/code/custom_data_plugin_demo) | 第 10 课 | 支持独立环境、动态配置面板和 ZIP 分发的自定义数据插件示例 |
 | [custom_data_plugin_demo2](example/code/custom_data_plugin_demo2) | 第 11 课 | “演示传感器2”完整绑定样式、简介和预览图的插件示例 |
 | [weather_screen](example/code/weather_screen) | 第 12 课 | 天气自定义数据插件和英文天气屏幕样式 |

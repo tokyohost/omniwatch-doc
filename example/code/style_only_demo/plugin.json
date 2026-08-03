@@ -1,0 +1,13 @@
+{
+  "type": "style",
+  "version": "1.0.1",
+  "key": "style_only_clock",
+  "name": "style_only_clock",
+  "zh_name": "纯样式时钟",
+  "description": "不包含数据采集入口的纯界面样式示例",
+  "style": "style_only_clock.py",
+  "bind_detail": true,
+  "detail": "style_only_clock_detail.html",
+  "bind_preview": true,
+  "preview": "preview.png"
+}

@@ -1,4 +1,5 @@
 {
+  "type": "plugin",
   "protocol": 1,
   "version": "1.0.0",
   "key": "demo_sensor",
